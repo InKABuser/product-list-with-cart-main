@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Product list with cart</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h2 class="title">Desserts</h2>
+      <section class="products-container">
+        <!-- <div class="product">
+          <div class="img-holder">
+            <img src="assets/images/image-baklava-desktop.jpg" alt="" />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart icon" />
+              <span class="main-btn-text">Add To Cart</span>
+              <div class="counter-controls">
+                <button class="decrement"></button>
+                <span class="count">51655</span>
+                <button class="increment"></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="category">Waffle</p>
+            <p class="name">waffle with Berries</p>
+            <p class="price">6.52</p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img-holder">
+            <img src="assets/images/image-baklava-desktop.jpg" alt="" />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart icon" />
+              <span class="main-btn-text">Add To Cart</span>
+              <div class="counter-controls">
+                <button class="decrement"></button>
+                <span class="count">51655</span>
+                <button class="increment"></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="category">Waffle</p>
+            <p class="name">waffle with Berries</p>
+            <p class="price">6.52</p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img-holder">
+            <img src="assets/images/image-baklava-desktop.jpg" alt="" />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart icon" />
+              <span class="main-btn-text">Add To Cart</span>
+              <div class="counter-controls">
+                <button class="decrement"></button>
+                <span class="count">51655</span>
+                <button class="increment"></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="category">Waffle</p>
+            <p class="name">waffle with Berries</p>
+            <p class="price">6.52</p>
+          </div>
+        </div> -->
+      </section>
+    </main>
+    <aside>
+      <h2>Your Cart <span class="total-in-cart"></span></h2>
+      <section class="aside-content">
+        <div class="empty-img">
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
+          <p class="para-empty">Your added items will appear here</p>
+        </div>
+        <!-- <div class="cartItem">
+          <div class="name-icon">
+            <p class="item-name"></p>
+            <button class="removeItem"></button>
+          </div>
+          <div class="span-holder">
+            <span class="quantity">1x</span>
+            <span class="single-price">14</span>
+            <span class="multiples-price">28</span>
+          </div>
+        </div> -->
+      </section>
+      <button class="confirm">Confirm Order</button>
+    </aside>
+    <dialog id="modal" class="confirm-message-modal">
+      <img class="check" src="assets/images/icon-order-confirmed.svg" alt="" />
+      <h2>Order Confirmed</h2>
+      <p>we hope you enjoy your food!</p>
+      <div class="confirmed-items"></div>
+      <button class="reset">Start New Order</button>
+    </dialog>
+  </body>
+</html>
